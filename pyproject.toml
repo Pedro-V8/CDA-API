@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-api"
+version = "0.1.0"
+description = "My API system to CDA (Client Data Analytics)"
+authors = ["Pedro-V8 <pedrophdv8@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = "^0.26.0"
+fastapi = "^0.109.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
